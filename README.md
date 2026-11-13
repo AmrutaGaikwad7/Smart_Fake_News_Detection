@@ -51,53 +51,55 @@ See `data/README.md` for dataset download and source information. Dataset usage 
 
 ## 5. Project Structure
 
+## 5. Project Structure
+
 ```text
 fake-news-detector/
-â”‚
-â”œâ”€â”€ app.py
-â”œâ”€â”€ README.md
-â”œâ”€â”€ REPORT.md
-â”œâ”€â”€ requirements.txt
-â”‚
-â”œâ”€â”€ data/
-â”‚   â”œâ”€â”€ Fake.csv
-â”‚   â”œâ”€â”€ True.csv
-â”‚   â””â”€â”€ README.md
-â”‚
-â”œâ”€â”€ src/
-â”‚   â”œâ”€â”€ __init__.py
-â”‚   â”œâ”€â”€ preprocess.py
-â”‚   â”œâ”€â”€ train.py
-â”‚   â””â”€â”€ eda.py
-â”‚
-â”œâ”€â”€ scripts/
-â”‚   â”œâ”€â”€ make_sample_data.py
-â”‚   â””â”€â”€ build_report.py
-â”‚
-â”œâ”€â”€ models/
-â”‚   â”œâ”€â”€ tfidf_vectorizer.joblib
-â”‚   â”œâ”€â”€ logistic_regression.joblib
-â”‚   â”œâ”€â”€ multinomial_nb.joblib
-â”‚   â”œâ”€â”€ best_model.joblib
-â”‚   â””â”€â”€ metrics.json
-â”‚
-â”œâ”€â”€ reports/
-â”‚   â”œâ”€â”€ model_comparison.csv
-â”‚   â”œâ”€â”€ confusion_matrices.png
-â”‚   â”œâ”€â”€ roc_curves.png
-â”‚   â”œâ”€â”€ top_features.csv
-â”‚   â””â”€â”€ Fake_News_Detection_Project_Report.pdf
-â”‚
-â”œâ”€â”€ outputs/
-â”‚   â””â”€â”€ visualizations/
-â”‚       â”œâ”€â”€ label_distribution.png
-â”‚       â”œâ”€â”€ article_length_distribution.png
-â”‚       â”œâ”€â”€ common_words_fake.png
-â”‚       â”œâ”€â”€ common_words_real.png
-â”‚       â””â”€â”€ dataset_inspection.csv
-â”‚
-â””â”€â”€ screenshots/
-    â””â”€â”€ Project screenshots
+|
+|-- app.py
+|-- README.md
+|-- REPORT.md
+|-- requirements.txt
+|
+|-- data/
+|   |-- Fake.csv
+|   |-- True.csv
+|   |-- README.md
+|
+|-- src/
+|   |-- __init__.py
+|   |-- preprocess.py
+|   |-- train.py
+|   |-- eda.py
+|
+|-- scripts/
+|   |-- make_sample_data.py
+|   |-- build_report.py
+|
+|-- models/
+|   |-- tfidf_vectorizer.joblib
+|   |-- logistic_regression.joblib
+|   |-- multinomial_nb.joblib
+|   |-- best_model.joblib
+|   |-- metrics.json
+|
+|-- reports/
+|   |-- model_comparison.csv
+|   |-- confusion_matrices.png
+|   |-- roc_curves.png
+|   |-- top_features.csv
+|   |-- Fake_News_Detection_Project_Report.pdf
+|
+|-- outputs/
+|   |-- visualizations/
+|       |-- label_distribution.png
+|       |-- article_length_distribution.png
+|       |-- common_words_fake.png
+|       |-- common_words_real.png
+|       |-- dataset_inspection.csv
+|
+|-- screenshots/
+    |-- Project screenshots
 ```
 
 ## 6. Data Preprocessing
