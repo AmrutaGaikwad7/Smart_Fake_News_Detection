@@ -1,4 +1,4 @@
-"""Streamlit app: paste a news article, get a Fake/Real prediction."""
+
 import json
 from pathlib import Path
 
