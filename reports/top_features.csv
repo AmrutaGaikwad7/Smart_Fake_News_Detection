@@ -1,0 +1,81 @@
+model,indicates,term
+logistic_regression,fake,video
+logistic_regression,fake,read
+logistic_regression,fake,featured image
+logistic_regression,fake,image
+logistic_regression,fake,just
+logistic_regression,fake,featured
+logistic_regression,fake,gop
+logistic_regression,fake,president trump
+logistic_regression,fake,breaking
+logistic_regression,fake,obama
+logistic_regression,fake,watch
+logistic_regression,fake,mr
+logistic_regression,fake,america
+logistic_regression,fake,getty
+logistic_regression,fake,hillary
+logistic_regression,fake,getty images
+logistic_regression,fake,sen
+logistic_regression,fake,president obama
+logistic_regression,fake,com
+logistic_regression,fake,rep
+logistic_regression,real,said
+logistic_regression,real,reuters
+logistic_regression,real,president donald
+logistic_regression,real,wednesday
+logistic_regression,real,tuesday
+logistic_regression,real,thursday
+logistic_regression,real,republican
+logistic_regression,real,friday
+logistic_regression,real,nov
+logistic_regression,real,washington reuters
+logistic_regression,real,monday
+logistic_regression,real,president barack
+logistic_regression,real,said statement
+logistic_regression,real,democratic
+logistic_regression,real,told reuters
+logistic_regression,real,minister
+logistic_regression,real,reporters
+logistic_regression,real,spokesman
+logistic_regression,real,news conference
+logistic_regression,real,house representatives
+multinomial_nb,fake,featured image
+multinomial_nb,fake,pic twitter
+multinomial_nb,fake,twitter com
+multinomial_nb,fake,getty images
+multinomial_nb,fake,getty
+multinomial_nb,fake,pic
+multinomial_nb,fake,screen capture
+multinomial_nb,fake,image video
+multinomial_nb,fake,century wire
+multinomial_nb,fake,image screenshot
+multinomial_nb,fake,flickr
+multinomial_nb,fake,image screen
+multinomial_nb,fake,somodevilla
+multinomial_nb,fake,chip somodevilla
+multinomial_nb,fake,video screen
+multinomial_nb,fake,somodevilla getty
+multinomial_nb,fake,video donald
+multinomial_nb,fake,image screengrab
+multinomial_nb,fake,wire says
+multinomial_nb,fake,news st
+multinomial_nb,real,washington reuters
+multinomial_nb,real,rohingya
+multinomial_nb,real,hariri
+multinomial_nb,real,puigdemont
+multinomial_nb,real,rakhine
+multinomial_nb,real,president tayyip
+multinomial_nb,real,catalan
+multinomial_nb,real,bit ly
+multinomial_nb,real,myanmar
+multinomial_nb,real,moscow reuters
+multinomial_nb,real,rajoy
+multinomial_nb,real,reuters president
+multinomial_nb,real,euro zone
+multinomial_nb,real,london reuters
+multinomial_nb,real,rakhine state
+multinomial_nb,real,zuma
+multinomial_nb,real,ria news
+multinomial_nb,real,reuters republican
+multinomial_nb,real,erdogan said
+multinomial_nb,real,main opposition

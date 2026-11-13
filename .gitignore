@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+# raw data is large; download it separately (see data/README.md)
+data/*.csv
+data/sample/
+
