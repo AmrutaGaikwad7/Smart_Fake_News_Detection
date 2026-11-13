@@ -1,0 +1,7 @@
+Column,Data Type,Missing Values
+title,str,0
+text,str,0
+subject,str,0
+date,str,0
+label,str,0
+article_length,int64,0
